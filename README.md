@@ -13,8 +13,6 @@ This repository contains a project focused on building and fine-tuning a BERT-ba
 - [Training and Fine-Tuning](#training-and-fine-tuning)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [License](#license)
-- [Citation](#citation)
 
 ## Overview
 This project implements a text classification model to categorize emotions such as joy, sadness, anger, etc., in given text data. The model is based on the BERT (Bidirectional Encoder Representations from Transformers) architecture, which has proven effective in various NLP tasks.
@@ -56,31 +54,3 @@ Confusion matrices and classification reports are also generated to analyze the 
 
 ## Results
 The fine-tuned BERT model shows high accuracy in classifying emotions in text, with consistent performance across training, validation, and test datasets. The model's learning curves and confusion matrices are available in the results section.
-
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](https://huggingface.co/datasets/dair-ai/emotion#licensing-information) file for details.
-
----
-## Citation
-
-
-```bibtex
-@inproceedings{saravia-etal-2018-carer,
-    title = "{CARER}: Contextualized Affect Representations for Emotion Recognition",
-    author = "Saravia, Elvis  and
-      Liu, Hsien-Chi Toby  and
-      Huang, Yen-Hao  and
-      Wu, Junlin  and
-      Chen, Yi-Shin",
-    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
-    month = oct # "-" # nov,
-    year = "2018",
-    address = "Brussels, Belgium",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/D18-1404",
-    doi = "10.18653/v1/D18-1404",
-    pages = "3687--3697",
-    abstract = "Emotions are expressed in nuanced ways, which varies by collective or individual experiences, knowledge, and beliefs. Therefore, to understand emotion, as conveyed through text, a robust mechanism capable of capturing and modeling different linguistic nuances and phenomena is needed. We propose a semi-supervised, graph-based algorithm to produce rich structural descriptors which serve as the building blocks for constructing contextualized affect representations from text. The pattern-based representations are further enriched with word embeddings and evaluated through several emotion recognition tasks. Our experimental results demonstrate that the proposed method outperforms state-of-the-art techniques on emotion recognition tasks.",
-}
-```
