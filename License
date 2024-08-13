@@ -1,0 +1,12 @@
+```bibtex
+@inproceedings{saravia-etal-2018-carer,
+    title = "{CARER}: Contextualized Affect Representations for Emotion Recognition",
+    author = "Saravia, Elvis  and
+      Liu, Hsien-Chi Toby  and
+      Huang, Yen-Hao  and
+      Wu, Junlin  and
+      Chen, Yi-Shin",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
